@@ -9,9 +9,11 @@
     font-size: small;
 }
 
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Barlow', sans-serif;
 }
 
@@ -85,4 +87,26 @@ strong {
     height: 250px;
     background-color: grey;
     max-width: 150px;
+}
+
+#access-bonus {
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+}
+
+.carousel-indicators {
+    bottom: -15px !important;
+}
+
+.carrossel-item-custom-height {
+    height: 150px;
+    vertical-align: middle;
+}
+
+.bonus-card {
+    border: 1.5px solid  #dc3545;
+    margin: 20px 0px;
+    border-radius: 14px;
+    padding: 15px;
 }
