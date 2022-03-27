@@ -1,0 +1,88 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,900&display=swap');
+
+.barlow {
+    font-family: 'Barlow', sans-serif;
+}
+
+.fs-small {
+    font-size: small;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+/* CENTRALIZAR CONTEUDO E COLOCAR EM FLEX */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+header {
+    background-image: url(../assets/background.jpg);
+    padding-top: 4%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 4%;
+}
+
+.button-header {
+    cursor: pointer;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.headline {
+    font-size: x-large !important;
+    font-weight: 900;
+    text-align: center;
+}
+
+.sub-headline {
+    font-size: larger !important;
+    text-align: center;
+}
+
+#manchetes-container div {
+    width: 49%;
+    height: 200px;
+    border: 1px solid white;
+}
+
+.sessao3 {
+    background-image: url(../assets/background.jpg);
+    background-repeat: no-repeat;
+}
+
+.gradientLine {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.8213457076566125) 2%, rgba(0, 0, 0, 0.9220063025210083) 6%, rgba(194, 18, 47, 1) 50%, rgba(0, 0, 0, 0.9836309523809523) 94%, rgba(0, 0, 0, 0.8863109048723898) 98%);
+    width: 100%;
+    height: 4px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+strong {
+    color: #dc3545;
+}
+
+.section4 {
+    background-color: #b1001d;
+}
+
+.teste {
+    width: 250px;
+    height: 250px;
+    background-color: grey;
+    max-width: 150px;
+}
