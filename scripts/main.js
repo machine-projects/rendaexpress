@@ -20,6 +20,7 @@ function showBody() {
   showOrHideElement('#hidden-element')
   showOrHideElement('#hidden-element1')
   showOrHideElement('#hidden-element2')
+  showOrHideElement('#hidden-element3')
   componetTimer()
 }
 
